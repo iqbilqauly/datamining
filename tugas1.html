@@ -2329,26 +2329,26 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <section id="menghitung-manual-local-outlier">
 <h2>Menghitung Manual Local Outlier<a class="headerlink" href="#menghitung-manual-local-outlier" title="Link to this heading">#</a></h2>
 <p>data contoh dengan tipe numerik 3 fitur , jumlah data 10, K = 3, p=2 (euclidian)</p>
-<img src="image-20240321-012506.png" width="" align="left" /><ul class="simple">
+<img src="foto/image-20240321-012506.png" width="" align="left" /><ul class="simple">
 <li><p>step 1 hitung jarak antar setiap data dengan euclidean</p></li>
 </ul>
-<img src="image-20240321-001910.png" width="" align="left" /><ul class="simple">
+<img src="foto/image-20240321-001910.png" width="" align="left" /><ul class="simple">
 <li><p>step 2 Menentukan k-Nearest Neighbors (k= 3)</p></li>
 </ul>
-<img src="image-20240321-001954.png" width="" align="left" /><ul class="simple">
+<img src="foto/image-20240321-001954.png" width="" align="left" /><ul class="simple">
 <li><p>step 3 Menghitung Local Reachability Density (LRD)</p></li>
 </ul>
 <ul class="simple">
 <li><p>k-distance neighborhood of o, Nk(o) = {o’|
 o’ in D, dist(o, o’) ≤ distk(o)}</p></li>
 </ul>
-<img src="image-20240321-002033.png" width="" align="left" /><ul class="simple">
+<img src="foto/image-20240321-002033.png" width="" align="left" /><ul class="simple">
 <li><p>|| Nk(o) || means the number of objects in Nk(o)</p></li>
 </ul>
-<img src="image-20240321-002111.png" width="" align="left" /><ul class="simple">
+<img src="foto/image-20240321-002111.png" width="" align="left" /><ul class="simple">
 <li><p>Menghitung RD dengan rumus :</p></li>
 </ul>
-<img src="image-20240320-002729.png" width="" align="left" /><img src="image-20240321-002148.png" width="" align="" /><ul class="simple">
+<img src="foto/image-20240320-002729.png" width="" align="left" /><img src="image-20240321-002148.png" width="" align="" /><ul class="simple">
 <li><p>Menghitung LRD dengan rumus :</p></li>
 </ul>
 <img src="foto/image-20240320-003001.png" width="" align="left" /><img src="image-20240321-002215.png" width="" align="" /><ul class="simple">
